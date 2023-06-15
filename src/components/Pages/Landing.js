@@ -10,7 +10,9 @@ const Landing = () => {
   return (
     <Element name="home" class="">
       <div class="pt-16 select-none ">
-        Landing
+        <div>
+          Main text Section
+        </div>
       </div>
 
     </Element>
