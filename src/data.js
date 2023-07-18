@@ -39,106 +39,10 @@ import pic1 from "./components/media/Gallery/1.jpg"
 
 *///////////////////////////////////////////////////////////////////////
 
-import pic1small from "./components/media/Gallery/1small.jpg"
-import pic1 from "./components/media/Gallery/1.jpg"
-import pic2small from "./components/media/Gallery/2small.jpg"
-import pic2 from "./components/media/Gallery/2.jpg"
-import pic3small from "./components/media/Gallery/3small.jpg"
-import pic3 from "./components/media/Gallery/3.jpg"
-import pic4small from "./components/media/Gallery/4small.jpg"
-import pic4 from "./components/media/Gallery/4.jpg"
-import pic5small from "./components/media/Gallery/5small.jpg"
-import pic5 from "./components/media/Gallery/5.jpg"
-import pic6small from "./components/media/Gallery/6small.jpg"
-import pic6 from "./components/media/Gallery/6.jpg"
-import pic7small from "./components/media/Gallery/7small.jpg"
-import pic7 from "./components/media/Gallery/7.jpg"
-import pic8small from "./components/media/Gallery/8small.jpg"
-import pic8 from "./components/media/Gallery/8.jpg"
-import pic9small from "./components/media/Gallery/9small.jpg"
-import pic9 from "./components/media/Gallery/9.jpg"
-import pic10small from "./components/media/Gallery/10small.jpg"
-import pic10 from "./components/media/Gallery/10.jpg"
-import pic11small from "./components/media/Gallery/11small.jpg"
-import pic11 from "./components/media/Gallery/11.jpg"
-import pic12small from "./components/media/Gallery/12small.jpg"
-import pic12 from "./components/media/Gallery/12.jpg"
-import pic13small from "./components/media/Gallery/13small.jpg"
-import pic13 from "./components/media/Gallery/13.jpg"
-
-/////////////////////////////////////////
-export const galleryPhotos = [///////////
-/*///////////////////////////////////////
-
-Almost there!
-Copy and Paste these four lines into the area below
-
-      Change the Name Here
-          \/
-  { 
-    big: pic1,
-    small: pic1small,
-  },
-
-*/////////////////////////////
-//      Paste Below me!     //
-//////////////////////////////
-  { 
-    big: pic1,
-    small: pic1small,
-  },
-  { 
-    big: pic2,
-    small: pic2small,
-  },
-  { 
-    big: pic3,
-    small: pic3small,
-  },
-  { 
-    big: pic4,
-    small: pic4small,
-  },
-  { 
-    big: pic5,
-    small: pic5small,
-  },
-  { 
-    big: pic6,
-    small: pic6small,
-  },
-  { 
-    big: pic7,
-    small: pic7small,
-  },
-  { 
-    big: pic8,
-    small: pic8small,
-  },
-  { 
-    big: pic9,
-    small: pic9small,
-  },
-  { 
-    big: pic10,
-    small: pic10small,
-  },
-  { 
-    big: pic11,
-    small: pic11small,
-  },
-  { 
-    big: pic12,
-    small: pic12small,
-  },
-  { 
-    big: pic13,
-    small: pic13small,
-  },
-]
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+import photo1 from "./components/media/JonahSite.png"
+import photo2 from "./components/media/HexSite.png"
+import photo3 from "./components/media/KatelynSite.png"
+import photo4 from "./components/media/BrianSite.png"
 
 
 
@@ -243,11 +147,11 @@ Just Edit the Bio text below!
 Do not include your name it will be added automatically
 
 */////////////////////////////////////////////
-export const JonahBio = //////////////////////
+export const ChaseBio = //////////////////////
 //////////////////////////////////////////////
 `
 
-is from Lawrenceville, GA with a Bachelors of Arts in Theatre and a minor in Film Studies from Florida State University. He is an actor, musician, and filmmaker currently based in Tallahassee, FL.
+With experience in both front-end and back-end development, Chase excels in building robust, scalable, and responsive websites. With a strong foundation in HTML, CSS, JavaScript, and React, Chase also possesses expertise in database management using SQL/No-SQL and Node.js. With a proven track record of delivering high-quality code and effectively managing projects, Chase is dedicated to providing exceptional user experiences through clean and efficient coding practices.
 
 `
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -263,36 +167,77 @@ export const PoleroidHeaders = [
 
 export const Jobs = [
   {
-    date: "July - Dec 2016",
-    header: "Software Engineer Co-op · Starry",
-    description: "Worked with the UI team to engineer and improve major features of Starry’s customer-facing Android app.",
+    date: "Oct 2022 - Now | Remote",
+    header: "OPS Tempo LLC. · AppsColective.com",
+    descriptions: [
+      "Managed development milestones, ensuring successful project completion and release versions.",
+      "Developed and managed databases using Node.js, Prisma, and SQL/No-SQL.",
+      "Engineered RESTful web services to manipulate dynamic datasets.",
+      "Conducted thorough code reviews, identified and debugged issues, and implemented necessary corrections to enhance overall code quality.",
+    ],
     languages: [
-      "React", "Javascript"
+      "Vue", "JavaScript", "Node.js", "Prisma", "SQL/No-SQL", "Bulma", "Heroku"
     ]
   },
   {
-    date: "July - Dec 2016",
-    header: "Software Engineer Co-op · Starry",
-    description: "Worked with the UI team to engineer and improve major features of Starry’s customer-facing Android app.",
+    date: "May 2019 - Present | Remote",
+    header: "Brackett Website Design",
+    descriptions: [
+      "Developed modern and responsive web applications by utilizing React, HTML, CSS, and JavaScript, ensuring excellent user interface performance.",
+      "Transformed native applications into mobile-friendly products, enhancing accessibility and user reach.",
+      "Provided guidance and expertise to clients throughout the project lifecycle, offering valuable insights on best practices, user needs, and technological capabilities.",
+      "Collaborated with clients to deliver high-quality features for both mobile and desktop platforms.",
+    ],
     languages: [
-      "React", "Javascript"
+      "React", "JavaScript", "HTML", "TailwindCSS", "Vercel"
     ]
   },
   {
-    date: "July - Dec 2016",
-    header: "Software Engineer Co-op · Starry",
-    description: "Worked with the UI team to engineer and improve major features of Starry’s customer-facing Android app.",
+    date: "Jan. 2021 - May 2022 | New York, NY",
+    header: "Hex & Co · HexNYC.com",
+    descriptions: [
+      "Gathered user feedback and incorporated iterative improvements to enhance the structure, content, and user experience of the website.",
+      "Resolved scripting errors, conducted thorough testing, and implemented updates to maintain the website's functionality and performance.",
+      "Collaborated with different departments to gather and integrate data for website content, ensuring accurate and up-to-date information.",
+    ],
     languages: [
-      "React", "Javascript"
-    ]
-  },
-  {
-    date: "July - Dec 2016",
-    header: "Software Engineer Co-op · Starry",
-    description: "Worked with the UI team to engineer and improve major features of Starry’s customer-facing Android app.",
-    languages: [
-      "React", "Javascript"
+      "WordPress", "JavaScript", "HTML/CSS", "Elementor"
     ]
   },
 ]
+
+export const sites = [
+  {
+    thumbnail: photo1,
+    header: "JonahTyHarmon.com",
+    description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+    languages: [
+      "Vue", "JavaScript", "Node.js", "Prisma", "SQL/No-SQL"
+    ]
+  },
+  {
+    thumbnail: photo2,
+    header: "OPS Tempo LLC. · AppsColective.com",
+    description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+    languages: [
+      "Vue", "JavaScript", "Node.js", "Prisma", "SQL/No-SQL"
+    ]
+  },{
+    thumbnail: photo3,
+    header: "KatelynShreiner.com",
+    link: "https://www.katelynshreiner.com/?fbclid=IwAR2wb2JKwWp6Ca-KvMavIvmXMbI_65PZHMilvINlxb6CTKGP4ZFl4PveO2w",
+    description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+    languages: [
+      "Vue", "JavaScript", "Node.js", "Prisma", "SQL/No-SQL"
+    ]
+  },{
+    thumbnail: photo4,
+    header: "BrianOsborne.com",
+    description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+    languages: [
+      "Vue", "JavaScript", "Node.js", "Prisma", "SQL/No-SQL"
+    ]
+  },
+]
+
 

@@ -19,23 +19,24 @@ const Body = () => {
 
   return (
     <div className='relative text-white'>
-      <div class=" p-4 z-10" >
-        <div className='py-4 animate-fade-load'>
+      <div class=" py-4 z-10" >
+        <div className='px-4 pt-4 animate-fade-load'>
           <Landing/>
         </div>
-        <div className='py-4'>
-          <Experience/>
-        </div>
-        <div className='py-4'>
+        <div className='p-4 animate-fade-load bg-slate-950'>
           <Projects/>
         </div>
-        <div className='py-4'>
+        <div className='p-4 animate-fade-load'>
+          <Experience/>
+        </div>
+        
+        <div className='p-4'>
           <Contact/>
         </div>
       </div>
       <div className='fixed z-[-20] top-[0rem] h-[200rem] w-full animate-falling-down'>
-        <div className='h-[100rem] w-full bg-slate-800'></div>
-        <div className='bg-gradient-to-b from-slate-800 h-[100rem]'></div>
+        <div className='h-[100rem] w-full bg-slate-900'></div>
+        <div className='bg-gradient-to-b from-slate-900 h-[100rem]'></div>
       </div>
     </div>
   );

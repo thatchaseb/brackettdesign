@@ -15,12 +15,43 @@ module.exports = {
           '0%':{ opacity: 0 },
           '65%':{ opacity: 0 },
           '100%':{  opacity: 1.0 }
-        }
+        },
+        'hover-top-left':{
+          '0%':{ transform: 'translateY(0px) translateX(0px)'},
+          '50%':{ transform: 'translateY(-5px) translateX(5px)'},
+          '100%':{ transform: 'translateY(0px) translateX(0px)'},
+        },
+        'orbit':{
+          '0%':{ 
+            transform: 'translate(170px, 70px)  scale(0.6);',
+            opacity: 0,
+          },
+          '25%':{
+            opacity: 1,
+          },
+          '50%':{ transform: ' translate(-170px, -70px)  scale(0.8); ',
+            opacity: 1
+          },
+          '70%':{
+            opacity: 0,
+          },
+          '80%':{
+            opacity: 0,
+          },
+          '100%':{ transform: 'translate(170px, 70px)  scale(0.6); ',
+            opacity: 0,
+          },
+        },
 
       },
       animation:{
         'falling-down':'falling-down 3.5s ease-in-out',
-        'fade-load':'fade-load 5.0s ease-in-out'
+        'fade-load':'fade-load 5.0s ease-in-out',
+        'hover-top-left':'hover-top-left 2s ease-in-out infinite',
+        'orbit':'orbit 9s infinite ease-in-out',
+        'orbiting':'orbit 20s infinite ease-in-out',
+        
+        'move-up-down':'move-up-down 9s infinite ease-in-out'
       }
     },
   },
