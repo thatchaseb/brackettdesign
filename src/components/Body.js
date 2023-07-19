@@ -30,7 +30,7 @@ const Body = () => {
           <Experience/>
         </div>
         
-        <div className='px-4'>
+        <div className='px-4 animate-fade-load'>
           <Contact/>
         </div>
       </div>

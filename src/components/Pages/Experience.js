@@ -25,16 +25,19 @@ const Experience = () => {
       <React.Fragment key={index}>
         
         {/*         Job            */}
-        <div className='bg-slate-900 text-green-300 p-3 my-4 rounded'>
+        <div className='bg-slate-900 text-green-300 p-3 my-4 rounded group'>
           {/*         Job Date            */}
-          <div className=''>
+          <a href={item.link} target='_blank' rel='noreferrer' className='group-hover:text-blue-400'>
             {item.date}
-          </div>
-
+          </a>
+          <br/>
           {/*         Job Header            */}
-          <div className='text-2xl py-2 '>
+          <a href={item.link} target='_blank' rel='noreferrer' className='text-2xl py-2  cursor-pointer group-hover:text-blue-400 '>
             {item.header}
-          </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class=" group-hover:animate-hover-top-left w-6 h-6 ml-2 inline-block"> 
+                <path fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z" clip-rule="evenodd" />
+              </svg>
+          </a>
 
           {/*         Job Descriptions            */}
           <ul>
@@ -51,14 +54,14 @@ const Experience = () => {
   });
 
   return (
-    <Element name="Experience" class="">
+    <Element name="Experience" class="lg:mx-16 xl:mx-32">
       {/*         Title            */}
-      <div>
-          Experience
+      <div className='ml-4 md:ml-12 my-12 text-4xl text-green-400'>
+        Work Experience
       </div>
 
       {/*         Body             */}
-      <div>
+      <div className='md:mx-8'>
         
         {rerenderedJobs}
 

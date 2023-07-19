@@ -18,7 +18,7 @@ module.exports = {
         },
         'hover-top-left':{
           '0%':{ transform: 'translateY(0px) translateX(0px)'},
-          '50%':{ transform: 'translateY(-5px) translateX(5px)'},
+          '50%':{ transform: 'translateY(-4px) translateX(5px)'},
           '100%':{ transform: 'translateY(0px) translateX(0px)'},
         },
         'orbit':{
@@ -71,7 +71,7 @@ module.exports = {
       animation:{
         'falling-down':'falling-down 3.5s ease-in-out',
         'fade-load':'fade-load 5.0s ease-in-out',
-        'hover-top-left':'hover-top-left 2s ease-in-out infinite',
+        'hover-top-left':'hover-top-left 1.5s ease-in-out infinite',
         'orbit':'orbit 9s infinite ease-in-out',
         'large-orbit':'large-orbit 9s infinite ease-in-out',
         'orbiting':'orbit 20s infinite ease-in-out',

@@ -1,23 +1,6 @@
 
 
 
-
-///////////////////////////////////////////////////////////////////////
-//                        Gallery Photos                             //
-/*/////////////////////////////////////////////////////////////////////
-
-  Crop them to be 300 pixels by 300 pixels
-  Captitalization matters for both name and extention
-  You only need to change the Name after ./components/media/
-
-*///                               This Part \/
-import AboutPic from "./components/media/AboutPic.jpg"
-import GalleryPic from "./components/media/GalleryPic.jpg"
-import MusicPic from "./components/media/MusicPic.jpg"
-import VideoPic from "./components/media/VideoPic.jpg"
-import ContactPic from "./components/media/ContactPic.jpg"
-
-
 ///////////////////////////////////////////////////////////////////////
 //                        Gallery Photos                             //
 /*/////////////////////////////////////////////////////////////////////
@@ -46,32 +29,6 @@ import photo4 from "./components/media/BrianSite.png"
 
 
 
-///////////////////////////////////////////////////////////////////////
-//                        Video Links                                //
-/*/////////////////////////////////////////////////////////////////////
-
-Instructions:
-  Just go to Youtube, click the share button then paste it into the area below 
-  Make sure to put quotes around the link and add a comma after it!
-
-*///////////////////////////////
-export const VideoLinks = [/////
-////////////////////////////////
-//    Paste Below Me          //
-////////////////////////////////
-
-  "https://youtu.be/JQNv8rp71IY",
-  "https://youtu.be/zXB8O5RJmXk",
-  "https://youtu.be/AggBH5e7rkI",
-  "https://youtu.be/72kaICwNmhM",
-  "https://youtu.be/TVzockIcEE0",
-
-
-
-////////////////////////////////
-]//    Paste Above Me         //
-////////////////////////////////  
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -97,49 +54,6 @@ export const SocialLinks = {///////////////////////////////////////////
 
 
 ///////////////////////////////////////////////////////////////////////
-//                        Song Section                               //
-/*/////////////////////////////////////////////////////////////////////
-  
-Just Edit the links in the quotations below!
-
-*//////////////////////////////////////////////////////////////////////
-
-
-//-- Instructions:
-//-- You can add or remove songs... just copy and paste the  { },  and then edit the quotes inside
-//-- Make sure new { }, songs are inside the [ ] 
-
-////////////////////////////
-//       Main Video       //
-////////////////////////////
-export const MainVideo = {//
-////////////////////////////
-
-// Only this gets a Music Video 
-  
-    Name: "Roanoke",
-    MusicVideo: "https://youtu.be/W8aZ28z5vPY",
-    Spotify: "https://open.spotify.com/track/1LP18e6wTIdgWmZiwwN7bA?si=103f6b5dd8c9423f",
-    AppleMusic: "https://music.apple.com/us/album/roanoke/1645560676?i=1645560677" 
-  
-  }
-//----------------//
-
-export const Music = [ 
-  {
-    Name: "Just Look at Me",
-    Spotify: "https://open.spotify.com/track/6O6SrtA8UaEi8NOzhDwNJi?si=188b6f3cade94662",
-    AppleMusic: "https://music.apple.com/us/album/just-look-at-me/1653272229?i=1653272230"
-  },
-  {
-    Name: "Just Look at Me",
-    Spotify: "https://open.spotify.com/track/6O6SrtA8UaEi8NOzhDwNJi?si=188b6f3cade94662",
-    AppleMusic: "https://music.apple.com/us/album/just-look-at-me/1653272229?i=1653272230"
-  },
-
-]
-
-///////////////////////////////////////////////////////////////////////
 //                        Bio                                        //
 /*/////////////////////////////////////////////////////////////////////
   
@@ -156,19 +70,13 @@ With experience in both front-end and back-end development, Chase excels in buil
 `
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-export const PoleroidHeaders = [
-  AboutPic,
-  GalleryPic,
-  MusicPic,
-  VideoPic,
-  ContactPic,
-]
 
 
 export const Jobs = [
   {
     date: "Oct 2022 - Now | Remote",
     header: "OPS Tempo LLC. · AppsColective.com",
+    link: "https://appscollective.com/",
     descriptions: [
       "Managed development milestones, ensuring successful project completion and release versions.",
       "Developed and managed databases using Node.js, Prisma, and SQL/No-SQL.",
@@ -182,6 +90,7 @@ export const Jobs = [
   {
     date: "May 2019 - Present | Remote",
     header: "Brackett Website Design",
+    link: "http://www.thatchaseb/",
     descriptions: [
       "Developed modern and responsive web applications by utilizing React, HTML, CSS, and JavaScript, ensuring excellent user interface performance.",
       "Transformed native applications into mobile-friendly products, enhancing accessibility and user reach.",
@@ -195,6 +104,7 @@ export const Jobs = [
   {
     date: "Jan. 2021 - May 2022 | New York, NY",
     header: "Hex & Co · HexNYC.com",
+    link: "http://www.hexnyc.com/",
     descriptions: [
       "Gathered user feedback and incorporated iterative improvements to enhance the structure, content, and user experience of the website.",
       "Resolved scripting errors, conducted thorough testing, and implemented updates to maintain the website's functionality and performance.",
@@ -211,7 +121,7 @@ export const sites = [
     thumbnail: photo1,
     header: "JonahTyHarmon.com",
     link: "https://www.jonahtyharmon.com/",
-    description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+    description: "",
     languages: [
       "React", "JavaScript", "Tailwind", "CSS", "HTML"
     ]
