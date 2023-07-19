@@ -119,7 +119,7 @@ class Header extends React.Component {
         <div class="select-none fixed w-screen z-20">
           <div class="p-4 bg-white flex justify-between">
             <div class="lg:grid grid-cols-2">
-              <Link className="text-mid hover:text-gray-600 cursor-pointer lg:ml-2 text-3xl font-Merriweather lg:text-4xl font-bold"  to="home" smooth={true} duration={800}>
+              <Link className="text-mid hover:text-gray-600 cursor-pointer lg:ml-2 text-3xl font-Merriweather lg:text-4xl font-bold"  offset={-30}  to="home" smooth={true} duration={800}>
                 <span style={{  display: `${this.state.letter1 ? 'inline' : 'none'} `}}>C</span>
                 <span style={{  display: `${this.state.letter2 ? 'inline' : 'none'} `}}>h</span>
                 <span style={{  display: `${this.state.letter3 ? 'inline' : 'none'} `}}>a</span>
