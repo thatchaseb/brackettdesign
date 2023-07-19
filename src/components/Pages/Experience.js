@@ -16,7 +16,7 @@ const Experience = () => {
     const rerenderedLang = item.languages.map((lang, index) => {
       return(
         <React.Fragment key={index}>
-          <span className='bg-green-300 p-1 px-2 mr-1 rounded text-slate-950 text-lg'>{lang}</span>
+          <span className='bg-slate-800 p-1 px-2 mr-2 rounded text-green-300 text-lg'>{lang}</span>
         </React.Fragment>
       )
     })

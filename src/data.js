@@ -40,7 +40,7 @@ import pic1 from "./components/media/Gallery/1.jpg"
 *///////////////////////////////////////////////////////////////////////
 
 import photo1 from "./components/media/JonahSite.png"
-import photo2 from "./components/media/HexSite.png"
+import photo2 from "./components/media/SarahSite.webp"
 import photo3 from "./components/media/KatelynSite.png"
 import photo4 from "./components/media/BrianSite.png"
 
@@ -210,17 +210,19 @@ export const sites = [
   {
     thumbnail: photo1,
     header: "JonahTyHarmon.com",
+    link: "https://www.jonahtyharmon.com/",
     description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
     languages: [
-      "Vue", "JavaScript", "Node.js", "Prisma", "SQL/No-SQL"
+      "React", "JavaScript", "Tailwind", "CSS", "HTML"
     ]
   },
   {
     thumbnail: photo2,
-    header: "OPS Tempo LLC. · AppsColective.com",
+    header: "SarahBrackett.actor",
+    link: "https://sarahbrackett.actor/",
     description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
     languages: [
-      "Vue", "JavaScript", "Node.js", "Prisma", "SQL/No-SQL"
+      "React", "JavaScript", "Tailwind", "CSS", "HTML"
     ]
   },{
     thumbnail: photo3,
@@ -228,14 +230,15 @@ export const sites = [
     link: "https://www.katelynshreiner.com/?fbclid=IwAR2wb2JKwWp6Ca-KvMavIvmXMbI_65PZHMilvINlxb6CTKGP4ZFl4PveO2w",
     description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
     languages: [
-      "Vue", "JavaScript", "Node.js", "Prisma", "SQL/No-SQL"
+      "JavaScript", "Wix", "CSS", "HTML"
     ]
   },{
     thumbnail: photo4,
-    header: "BrianOsborne.com",
+    header: "Brian-Osborne.com",
+    link: "https://www.brian-osborne.com/",
     description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
     languages: [
-      "Vue", "JavaScript", "Node.js", "Prisma", "SQL/No-SQL"
+      "Vue", "JavaScript", "CSS", "HTML", "Bulma", "Semantic UI"
     ]
   },
 ]

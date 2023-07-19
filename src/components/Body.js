@@ -10,7 +10,7 @@ const Body = () => {
   const [backgroundChange, setBackgroundChange] = useState(false);
   
   useEffect(() => {
-    if (backgroundChange == false) {
+    if (backgroundChange === false) {
       setTimeout(() => {
         setBackgroundChange(true)
       }, 3000);
@@ -20,17 +20,17 @@ const Body = () => {
   return (
     <div className='relative text-white'>
       <div class=" py-4 z-10" >
-        <div className='px-4 pt-4 animate-fade-load'>
+        <div className='pt-4 animate-fade-load'>
           <Landing/>
         </div>
         <div className='p-4 animate-fade-load bg-slate-950'>
           <Projects/>
         </div>
-        <div className='p-4 animate-fade-load'>
+        <div className='pt-4 px-4 animate-fade-load'>
           <Experience/>
         </div>
         
-        <div className='p-4'>
+        <div className='px-4'>
           <Contact/>
         </div>
       </div>

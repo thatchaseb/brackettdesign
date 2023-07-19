@@ -54,14 +54,21 @@ const Landing = () => {
             {ChaseBio}
           </div>
         </div>
-        <div className='relative' >
-          <div><img className='mx-auto lg:mx-0 max-w-[20rem] lg:max-w-[40rem] z-[400] ' src={coverPic} alt='Thinking Chase'></img></div>
-          <img className='h-14 object-cover animate-orbit absolute top-[40%] left-[50%]' src={reactPic} alt='reactPic'/>
-          <img style={{ display: `${logo1 ? 'inline' : 'none'} `}} className={`h-12 object-cover animate-orbit absolute top-[40%] left-[50%]`} src={tailwindPic} alt='tailwindPic'/>
-          <img style={{ display: `${logo2 ? 'inline' : 'none'} `}} className={`h-14  object-cover animate-orbit absolute top-[40%] left-[50%]`} src={jsPic} alt='jsPic'/>
-          <img style={{ display: `${logo3 ? 'inline' : 'none'} `}} className={`h-12 object-cover animate-orbit absolute top-[40%] left-[50%]`} src={vuePic} alt='vuePic'/>
-          <img style={{ display: `${logo4 ? 'inline' : 'none'} `}} className={`h-16 object-cover animate-orbit absolute top-[40%] left-[50%]`} src={htmlPic} alt='htmlPic'/>
-          <img style={{ display: `${logo5 ? 'inline' : 'none'} `}} className={`h-16 object-cover animate-orbit absolute top-[40%] left-[50%]`} src={cssPic} alt='cssPic'/>
+        <div className='relative overflow-hidden' >
+          <div><img className='mx-auto lg:mx-0 max-w-[20rem] lg:max-w-[40rem]' src={coverPic} alt='Thinking Chase'></img></div>
+          <img className='h-14 object-cover lg:invisible animate-orbit absolute top-[40%] left-[50%]' src={reactPic} alt='reactPic'/>
+          <img style={{ display: `${logo1 ? 'inline' : 'none'} `}} className={`h-12 object-cover lg:invisible animate-orbit absolute top-[40%] left-[50%]`} src={tailwindPic} alt='tailwindPic'/>
+          <img style={{ display: `${logo2 ? 'inline' : 'none'} `}} className={`h-14 object-cover lg:invisible animate-orbit absolute top-[40%] left-[50%]`} src={jsPic} alt='jsPic'/>
+          <img style={{ display: `${logo3 ? 'inline' : 'none'} `}} className={`h-12 object-cover lg:invisible animate-orbit absolute top-[40%] left-[50%]`} src={vuePic} alt='vuePic'/>
+          <img style={{ display: `${logo4 ? 'inline' : 'none'} `}} className={`h-16 object-cover lg:invisible animate-orbit absolute top-[40%] left-[50%]`} src={htmlPic} alt='htmlPic'/>
+          <img style={{ display: `${logo5 ? 'inline' : 'none'} `}} className={`h-16 object-cover lg:invisible animate-orbit absolute top-[40%] left-[50%]`} src={cssPic} alt='cssPic'/>
+
+          <img className='h-24 object-cover lg:visible invisible animate-large-orbit absolute top-[45%] lg:left-[17rem] left-[50%]' src={reactPic} alt='reactPic'/>
+          <img style={{ display: `${logo1 ? 'inline' : 'none'} `}} className={`h-16 object-cover lg:visible invisible animate-large-orbit absolute lg:left-[17rem] top-[47%] left-[50%]`} src={tailwindPic} alt='tailwindPic'/>
+          <img style={{ display: `${logo2 ? 'inline' : 'none'} `}} className={`h-24 object-cover lg:visible invisible animate-large-orbit absolute top-[45%] lg:left-[17rem] left-[50%]`} src={jsPic} alt='jsPic'/>
+          <img style={{ display: `${logo3 ? 'inline' : 'none'} `}} className={`h-20 object-cover lg:visible invisible animate-large-orbit absolute top-[46%] lg:left-[17rem] left-[50%]`} src={vuePic} alt='vuePic'/>
+          <img style={{ display: `${logo4 ? 'inline' : 'none'} `}} className={`h-24 object-cover lg:visible invisible animate-large-orbit absolute top-[45%] lg:left-[17rem] left-[50%]`} src={htmlPic} alt='htmlPic'/>
+          <img style={{ display: `${logo5 ? 'inline' : 'none'} `}} className={`h-24 object-cover lg:visible invisible animate-large-orbit absolute top-[45%] lg:left-[17rem] left-[50%]`} src={cssPic} alt='cssPic'/>
         </div>
         
       </div>
