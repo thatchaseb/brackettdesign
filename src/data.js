@@ -26,6 +26,7 @@ import photo1 from "./components/media/JonahSite.png"
 import photo2 from "./components/media/SarahSite.webp"
 import photo3 from "./components/media/KatelynSite.png"
 import photo4 from "./components/media/BrianSite.png"
+import photo5 from "./components/media/SunnySite.webp"
 
 
 
@@ -121,7 +122,7 @@ export const sites = [
     thumbnail: photo1,
     header: "JonahTyHarmon.com",
     link: "https://www.jonahtyharmon.com/",
-    description: "",
+    description: "Jonah Harmon is a creative actor, singer, and song-writer. His website reflects his vintage, quirky, and edgy style by using earthy colors, artistic photos, and 1970s tropes.",
     languages: [
       "React", "JavaScript", "Tailwind", "CSS", "HTML"
     ]
@@ -130,7 +131,7 @@ export const sites = [
     thumbnail: photo2,
     header: "SarahBrackett.actor",
     link: "https://sarahbrackett.actor/",
-    description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+    description: "Sarah Brackett is an actor and singer. Sarah is confident, traditional, and doesn’t take herself too seriously. Her website shows that off through classic colors, simple design, and whimsical pictures.",
     languages: [
       "React", "JavaScript", "Tailwind", "CSS", "HTML"
     ]
@@ -138,7 +139,7 @@ export const sites = [
     thumbnail: photo3,
     header: "KatelynShreiner.com",
     link: "https://www.katelynshreiner.com/?fbclid=IwAR2wb2JKwWp6Ca-KvMavIvmXMbI_65PZHMilvINlxb6CTKGP4ZFl4PveO2w",
-    description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+    description: "Kaitlyn Shreiner is a daring actor, singer, and dancer. She is comedic, quirky, and powerful. Her website captures her confident and out of the box style through bright colors, eye-catching blurbs, and concise branding.",
     languages: [
       "JavaScript", "Wix", "CSS", "HTML"
     ]
@@ -146,9 +147,17 @@ export const sites = [
     thumbnail: photo4,
     header: "Brian-Osborne.com",
     link: "https://www.brian-osborne.com/",
-    description: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+    description: "Brian Osborne is a vocal coach, music director, and pianist. He has a strong, commanding, and sleek style portrayed on his website through classic colors, simple design, and easy to use menu options.",
     languages: [
       "Vue", "JavaScript", "CSS", "HTML", "Bulma", "Semantic UI"
+    ]
+  },{
+    thumbnail: photo5,
+    header: "SunnyVinsavich.com",
+    link: "https://sunnyvinsavich.com/",
+    description: "Sunny Vinsavich is a powerful actor, stunt performer, and writer. She commands the scene with a confident, fiery, edgy demeanor. Her website highlights this through angular shapes, bold colors, and simple formatting.",
+    languages: [
+      "PHP", "WordPress", "CSS", "HTML", "Javascript"
     ]
   },
 ]

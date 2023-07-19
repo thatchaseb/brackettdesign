@@ -138,10 +138,10 @@ class Header extends React.Component {
               </Link>
             </div>
             <div className="hidden delay-75 md:flex font-Merriweather text-mid justify-evenly text-lg cursor-pointer">
-              <Link className=" delay-75 mx-2 mt-1 px-2  hover:text-gray-600 cursor-pointer transition ease-out duration-300" to="home" smooth={true} duration={800} >Home</Link>
+              <Link className=" delay-75 mx-2 mt-1 px-2  hover:text-gray-600 cursor-pointer transition ease-out duration-300" to="home" offset={-30} smooth={true} duration={800} >Home</Link>
               <Link className="delay-75 mx-2 mt-1 px-2  hover:text-gray-600 cursor-pointer transition ease-out duration-300" to="Projects"  offset={-135} smooth={true} duration={800} >Projects</Link>
               <Link className="delay-75 mx-2 mt-1 px-2  hover:text-gray-600 cursor-pointer transition ease-out duration-300" to="Experience"  offset={-100} smooth={true} duration={800} >Experience</Link>
-              <Link className="mx-2 delay-75 mt-1 px-2 cursor-pointer hover:text-gray-600 transition ease-out duration-300" to="contact"  offset={-65} smooth={true} duration={800} >Contact</Link>
+              <Link className="mx-2 delay-75 mt-1 px-2 cursor-pointer hover:text-gray-600 transition ease-out duration-300" to="contact"  offset={0} smooth={true} duration={800} >Contact</Link>
             </div>
 
             <div className="block md:hidden mr-6 " onClick={this.handleMenuClick.bind()}>
@@ -157,16 +157,16 @@ class Header extends React.Component {
         <div style={{display: `${this.state.menuOpen ? 'block' : 'none'}`}} class="fixed w-48 z-20 bg-gray-100  border-2 rounded-lg right-4 top-28 ">
           <div class=" mx-1 my-1">
             <div class="text-center mb-4 text-darkMid hover:text-gray-100 w-full hover:bg-mid rounded py-2 cursor-pointer transition delay-75  ease-out duration-300">
-              <Link onClick={this.handleMenuClick.bind()} className="pb-[16px] hover:text-gray-100 px-8 border-b-2 border-darkMid w-full mx-2 lg:mt-3 mt-4" to="home"  smooth={true} duration={800} >Home</Link>
+              <Link onClick={this.handleMenuClick.bind()} className="pb-[16px] hover:text-gray-100 px-8 border-b-2 border-darkMid w-full mx-2 lg:mt-3 mt-4" to="home" offset={-30} smooth={true} duration={800} >Home</Link>
             </div>
             <div class="text-center mb-4 text-darkMid hover:text-gray-100 w-full hover:bg-mid rounded py-2 cursor-pointer transition delay-75  ease-out duration-300">
-              <Link onClick={this.handleMenuClick.bind()} className="pb-[16px] hover:text-gray-100 px-8 border-b-2 border-darkMid w-full mx-2 lg:mt-3 mt-4" to="Projects" offset={-35} smooth={true} duration={800} >Project</Link>
+              <Link onClick={this.handleMenuClick.bind()} className="pb-[16px] hover:text-gray-100 px-8 border-b-2 border-darkMid w-full mx-2 lg:mt-3 mt-4" to="Projects" offset={-115} smooth={true} duration={800} >Project</Link>
             </div>
             <div class="text-center mb-4 text-darkMid hover:text-gray-100 w-full hover:bg-mid rounded py-2 cursor-pointer transition delay-75  ease-out duration-300">
-              <Link onClick={this.handleMenuClick.bind()} className="pb-[16px] hover:text-gray-100 px-8 border-b-2 border-darkMid w-full mx-2 lg:mt-3 mt-4" to="Experience" offset={-30} smooth={true} duration={800} >Experience</Link>
+              <Link onClick={this.handleMenuClick.bind()} className="pb-[16px] hover:text-gray-100 px-8 border-b-2 border-darkMid w-full mx-2 lg:mt-3 mt-4" to="Experience" offset={-130} smooth={true} duration={800} >Experience</Link>
             </div>
               <div class="text-center text-darkMid hover:text-gray-100 w-full hover:bg-mid rounded py-2 cursor-pointer transition delay-75  ease-out duration-300">
-              <Link onClick={this.handleMenuClick.bind()} className="px-8 hover:text-gray-100 w-full mx-2 lg:mt-3 mt-4" to="contact"  offset={-65} smooth={true} duration={800} >Contact</Link>
+              <Link onClick={this.handleMenuClick.bind()} className="px-8 hover:text-gray-100 w-full mx-2 lg:mt-3 mt-4" to="contact"  offset={15} smooth={true} duration={800} >Contact</Link>
             </div>
           </div>
         </div>

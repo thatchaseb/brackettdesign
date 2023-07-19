@@ -21,9 +21,11 @@ const Projects = () => {
         <div className='group text-gray-300 px-3 my-12 grid grid-cols-4 '>
           
           {/*         Project Picture           */}
-          <a href={item.link} target='_blank' rel='noreferrer' className='object-cover group-hover:animate-hflip mt-2
+          <a style={{animationDelay:'400ms'}} href={item.link} target='_blank' rel='noreferrer' className='object-cover group-hover:animate-hflip mt-2
           '>
-            <img src={item.thumbnail} alt="Site Preview" className='border-solid border-8 rounded-lg border-green-400 group-hover:border-blue-400'/>
+            <div className='group-hover:animate-fasthflip'>
+              <img src={item.thumbnail} alt="Site Preview" className='border-solid border-8 rounded-lg border-green-400 group-hover:border-blue-400'/>
+            </div>
           </a>
 
           {/*         Project Data          */}
@@ -57,14 +59,14 @@ const Projects = () => {
 
 
   return (
-    <Element name="Projects" class="text-slate-900 text-lg">
+    <Element name="Projects" class="text-slate-900 text-lg lg:mx-16 xl:mx-32">
        {/*         Title            */}
-      <div className='ml-12 my-12 text-4xl text-green-400'>
+      <div className='ml-4 md:ml-12 my-12 text-4xl text-green-400'>
         Recent Projects
       </div>
 
      {/*         Body             */}
-     <div>
+     <div className='md:mx-8'>
         
         {rerenderedProjects}
 

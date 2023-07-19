@@ -21,39 +21,40 @@ const Contact = () => {
   return (
     <Element name="contact" class="text-slate-300 md:ml-4 lg:ml-12 text-2xl">
       <div className='relative'>
-        <div className='text-slate-800'>23</div>
-        <div className='text-slate-700'>24</div>
-        <div className='text-slate-600'>25 </div>
-        <div className='text-slate-500'>26</div>
-        <div className='text-slate-400'>27</div>
-        <div>28</div>
-        <div>29</div>
-        <div>30</div>
-        <div>31</div>
-        <div>32</div>
-        <div>33</div>
-        <div>34</div>
-        <div>35</div>
-        <div>36</div>
-        <div>37</div>
-        <div>38</div>
-        <div>39</div>
-        <div>40</div>
-        <div>41</div>
-        <div>42</div>
-        <div className='md:text-slate-400'>43</div>
-        <div className='md:text-slate-500'>44</div>
-        <div className='md:text-slate-600'>45</div>
-        <div className='md:text-slate-700'>46</div>
-        <div className='md:text-slate-800'>47</div>
-        <div class='md:hidden' >48</div> 
-        <div className='text-slate-400 md:hidden'>49</div>
-        <div className='text-slate-500 md:hidden'>50</div>
-        <div className='text-slate-600 md:hidden'>51</div>
-        <div className='text-slate-700 md:hidden'>52 </div>
-        <div className='text-slate-800 md:hidden'>53</div>
-
-        <form id="contact-form" ref={form} onSubmit={handleSubmit} class="container mx-auto my-4 px-4 lg:px-20 absolute top-[92px] sm:left-16">
+        <div class="hidden sm:block">
+          <div className='text-slate-800'>23</div>
+          <div className='text-slate-700'>24</div>
+          <div className='text-slate-600'>25 </div>
+          <div className='text-slate-500'>26</div>
+          <div className='text-slate-400'>27</div>
+          <div>28</div>
+          <div>29</div>
+          <div>30</div>
+          <div>31</div>
+          <div>32</div>
+          <div>33</div>
+          <div>34</div>
+          <div>35</div>
+          <div>36</div>
+          <div>37</div>
+          <div>38</div>
+          <div>39</div>
+          <div>40</div>
+          <div>41</div>
+          <div>42</div>
+          <div className='md:text-slate-400'>43</div>
+          <div className='md:text-slate-500'>44</div>
+          <div className='md:text-slate-600'>45</div>
+          <div className='md:text-slate-700'>46</div>
+          <div className='md:text-slate-800'>47</div>
+          <div class='md:hidden' >48</div> 
+          <div className='text-slate-400 md:hidden'>49</div>
+          <div className='text-slate-500 md:hidden'>50</div>
+          <div className='text-slate-600 md:hidden'>51</div>
+          <div className='text-slate-700 md:hidden'>52 </div>
+          <div className='text-slate-800 md:hidden'>53</div>
+        </div>
+        <form id="contact-form" ref={form} onSubmit={handleSubmit} class="container mx-auto my-4 px-4 lg:px-20 absolute top-[92px] sm:left-8">
           <div class="w-full p-8 my-4 md:px-12 lg:pl-20 lg:pr-40 mr-auto ">
             <div class="flex">
               <h1 class="font-bold uppercase text-4xl">Contact Me</h1>

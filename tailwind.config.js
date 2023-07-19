@@ -63,6 +63,12 @@ module.exports = {
             opacity: 0,
           },
         },
+        'fast-flip':{
+          '15%':{transform: 'rotateY(90deg)'},
+          '32%':{transform: 'rotateY(180deg)'},
+          '52%':{transform: 'rotateY(90deg)'},
+          '90%':{transform: 'rotateY(0deg)'},
+        },
         'flip-horizantal':{
           '50%':{transform: 'rotateY(180deg)'},
         },
@@ -75,7 +81,8 @@ module.exports = {
         'orbit':'orbit 9s infinite ease-in-out',
         'large-orbit':'large-orbit 9s infinite ease-in-out',
         'orbiting':'orbit 20s infinite ease-in-out',
-        'hflip':'flip-horizantal 4s infinite linear',
+        'fasthflip': 'fast-flip 0.7s ease-out',
+        'hflip':'flip-horizantal 5s infinite linear',
         
         'move-up-down':'move-up-down 9s infinite ease-in-out'
       }
