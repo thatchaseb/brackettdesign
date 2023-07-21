@@ -40,6 +40,10 @@ const Projects = () => {
 
             </a>
 
+            <ul class="group-hover:text-yellow-400 text-green-300">
+              {item.log}
+            </ul>
+
             {/*         Project Descriptions            */}
             <ul>
               {item.description}

@@ -23,10 +23,9 @@ import pic1 from "./components/media/Gallery/1.jpg"
 *///////////////////////////////////////////////////////////////////////
 
 import photo1 from "./components/media/JonahSite.png"
-import photo2 from "./components/media/SarahSite.webp"
 import photo3 from "./components/media/KatelynSite.png"
 import photo4 from "./components/media/BrianSite.png"
-import photo5 from "./components/media/SunnySite.webp"
+import photo5 from "./components/media/AppsSite.jpg"
 
 
 
@@ -119,6 +118,15 @@ export const Jobs = [
 
 export const sites = [
   {
+    thumbnail: photo5,
+    header: "AppsCollective.com",
+    log: "UserName: Guest - Password: guest",
+    link: "https://opstempoappscollective.herokuapp.com/#/",
+    description: "Apps Collective is an IT Organizational application run through the company OPS Tempo that helps large organizations manage and plan for their software updates and outages. It is currently in open beta testing and is set to have a full release in Spring of 2024.",
+    languages: [
+      "Vue", "Prisma", "BulmaCSS", "Github", "Javascript", "Fastify", "NodeJS"
+    ]
+  },{
     thumbnail: photo1,
     header: "JonahTyHarmon.com",
     link: "https://www.jonahtyharmon.com/",
@@ -128,14 +136,6 @@ export const sites = [
     ]
   },
   {
-    thumbnail: photo2,
-    header: "SarahBrackett.actor",
-    link: "https://sarahbrackett.actor/",
-    description: "Sarah Brackett is an actor and singer. Sarah is confident, traditional, and doesn’t take herself too seriously. Her website shows that off through classic colors, simple design, and whimsical pictures.",
-    languages: [
-      "React", "JavaScript", "Tailwind", "CSS", "HTML"
-    ]
-  },{
     thumbnail: photo3,
     header: "KatelynShreiner.com",
     link: "https://www.katelynshreiner.com/?fbclid=IwAR2wb2JKwWp6Ca-KvMavIvmXMbI_65PZHMilvINlxb6CTKGP4ZFl4PveO2w",
@@ -149,15 +149,7 @@ export const sites = [
     link: "https://www.brian-osborne.com/",
     description: "Brian Osborne is a vocal coach, music director, and pianist. He has a strong, commanding, and sleek style portrayed on his website through classic colors, simple design, and easy to use menu options.",
     languages: [
-      "Vue", "JavaScript", "CSS", "HTML", "Bulma", "Semantic UI"
-    ]
-  },{
-    thumbnail: photo5,
-    header: "SunnyVinsavich.com",
-    link: "https://sunnyvinsavich.com/",
-    description: "Sunny Vinsavich is a powerful actor, stunt performer, and writer. She commands the scene with a confident, fiery, edgy demeanor. Her website highlights this through angular shapes, bold colors, and simple formatting.",
-    languages: [
-      "PHP", "WordPress", "CSS", "HTML", "Javascript"
+      "Vue", "JavaScript", "CSS", "HTML", "Bulma", "SemanticUI"
     ]
   },
 ]
