@@ -23,6 +23,7 @@ import pic1 from "./components/media/Gallery/1.jpg"
 *///////////////////////////////////////////////////////////////////////
 
 import photo1 from "./components/media/JonahSite.png"
+
 import photo3 from "./components/media/KatelynSite.png"
 import photo4 from "./components/media/BrianSite.png"
 import photo5 from "./components/media/AppsSite.jpg"
