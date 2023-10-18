@@ -28,11 +28,77 @@ import photo3 from "./components/media/KatelynSite.png"
 import photo4 from "./components/media/BrianSite.png"
 import photo5 from "./components/media/AppsSite.jpg"
 
-
+import FloridaRep from "./components/media/Florida Rep.webp"
+import LostColony from "./components/media/LostColony.png"
+import Rowdy from "./components/media/Rowdy.jpg"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+import Amy from "./components/media/Amy.jpg"
+import Holly from "./components/media/Holly.jpg"
+import Brian from "./components/media/Brian.jpg"
+import Bits from "./components/media/Bits Before Crits.png"
+import MtHope from "./components/media/MtHope.png"
+import Parf from "./components/media/Parf.jpg"
+import SFGE from "./components/media/SFGE.jpg"
 
+export const Tests = [
+  {
+    picture: Brian,
+    name: "Brian B.",
+    testimony: `Working with Chase as my son's violin teacher has been an absolute blessing. 
+    His patient guidance and unwavering support have not only instilled a love for the violin but also nurtured my son's 
+    confidence and musical abilities. I couldn't be more grateful for the remarkable 
+    progress my child has made under Chase's direction.`
+  },
+  {
+    picture: Amy,
+    name: "Amy S.",
+    testimony: `Chase was very professional and knowledgeable! My son looks forward to his lessons every week.
+    Chase used Lord of the Rings music to teach because my Son loves those movies! Can not
+    recommend him enough!`
+  },
+  {
+    picture: Holly,
+    name: "Holly C.",
+    testimony: `Having Chase as my daughter's violin teacher has been a true gift. 
+    Chase's dedication to my daughter's 
+    musical journey is nothing short of exceptional. Under Chase's guidance, my daughter has blossomed into a 
+    skilled violinist, and I'm deeply grateful for the positive impact 
+    Chase has had on her musical growth and self-confidence.`
+  },
+]
+
+export const ViolinJobs = [
+  {
+    picture: FloridaRep,
+    name: "Florida Repertory Theatre"
+  },
+  {
+    picture: LostColony,
+    name: "The Lost Colony"
+  },
+  {
+    picture: Rowdy,
+    name: "The Rowdy Bardlings"
+  },
+  {
+    picture: MtHope,
+    name: "Holidays at Mt. Hope"
+  },
+  {
+    picture: Parf,
+    name: "Pennsylvania Renaissance Faire"
+  },
+  {
+    picture: SFGE,
+    name: "Six Flags Great Escape"
+  },
+  {
+    picture: Bits,
+    name: "Bits before Crits"
+  },
+]
 
 ///////////////////////////////////////////////////////////////////////
 //                        Social Media Links                         //
@@ -43,16 +109,28 @@ Instructions:
 
 *//////////////////////////////////////////////////////////////////////
 export const SocialLinks = {///////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////////////
+    
+     Instagram: "https://www.instagram.com/thatchaseb/", 
+     Facebook: "https://www.facebook.com/chase.brackett.7",
+    
+    
+  }//////////////////////////////////////////////////////////////////////
   
-   YouTube: "https://www.youtube.com/@jonahtyharmon/featured",
-   Instagram: "https://www.instagram.com/jonahtyharmon/", 
-   TikTok: "https://www.tiktok.com/@jonahtyharmon?is_from_webapp=1&sender_device=pc", 
-   Twitter: "https://twitter.com/jonahtyharmon",
   
-  
-}//////////////////////////////////////////////////////////////////////
+////////////////////////////////
+export const VideoLinks = [/////
+////////////////////////////////
+//    Paste Below Me          //
+////////////////////////////////
 
+  "https://youtu.be/aQxBamN4B6s",
+  "https://youtu.be/CYOoMuM8UfM",
+  "https://youtu.be/rP7sCMKSb1I",
+  "https://youtu.be/ZFyhtnPYxQo",
+  "https://youtu.be/s0nfUCqLemU",
+
+]///////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////
 //                        Bio                                        //
@@ -68,6 +146,17 @@ export const ChaseBio = //////////////////////
 
 With experience in both front-end and back-end development, Chase excels in building robust, scalable, and responsive websites. With a strong foundation in HTML, CSS, JavaScript, and React, Chase also possesses expertise in database management using SQL/No-SQL and Node.js. With a proven track record of delivering high-quality code and effectively managing projects, Chase is dedicated to providing exceptional user experiences through clean and efficient coding practices.
 
+`
+
+export const ChaseViolinBio = 
+
+`
+Hi I'm Chase B and I'm a professional Actor, Singer and Violinist! I've been playing Violin for over 20 years now and have played for numerous Orchestras, Weddings, Musicals, Operas, and Concerts.
+
+Violin students can expect to learn solid technique, how to read music, how to play by ear, how to practice effectively and most of all have fun!
+We will be using a mix of Classical Violin pieces and contemporary music so learning stays challenging but engaging! Whether you have played violin for years or you are picking up the instrument for the first time I can help you reach new heights with Violin!
+
+I also have student violins available for rental!
 `
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,19 +1,21 @@
 import React from 'react';
 import './index.css';
-import Header from './components/Header';
-import Body from './components/Body'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import CodingBody from './components/CodingBody'
+import ViolinBody from './components/ViolinBody'
+import MainPage from './components/MainPage'
 
 
 function App() {
   return (
-    <div class="">
-      <Header />
-      
-      
-      <Body/>
-      
-
-      
+    <div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<MainPage/>} />
+        <Route path ="/coding" element={<CodingBody/>} />
+        <Route path="/violin" element={<ViolinBody/>}/>
+      </Routes>
+    </BrowserRouter>
     </div>
     
 
