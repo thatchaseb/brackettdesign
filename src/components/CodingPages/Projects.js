@@ -21,9 +21,9 @@ const Projects = () => {
         <div className='group text-gray-300 px-3 my-12 grid grid-cols-4 '>
           
           {/*         Project Picture           */}
-          <a style={{animationDelay:'400ms'}} href={item.link} target='_blank' rel='noreferrer' className='object-cover group-hover:animate-hflip mt-2
+          <a style={{animationDelay:'400ms'}} href={item.link} target='_blank' rel='noreferrer' className='object-cover md:group-hover:animate-hflip mt-2
           '>
-            <div className='group-hover:animate-fasthflip'>
+            <div className='md:group-hover:animate-fasthflip'>
               <img src={item.thumbnail} alt="Site Preview" className='border-solid border-8 rounded-lg border-green-400 group-hover:border-blue-400'/>
             </div>
           </a>
@@ -34,7 +34,7 @@ const Projects = () => {
             {/*         Project Header            */}
             <a href={item.link} target='_blank' rel='noreferrer' className='text-2xl pb-2 text-green-300  cursor-pointer group-hover:text-blue-400'>
               {item.header} 
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="group-hover:animate-hover-top-left w-6 h-6 ml-2 inline-block"> 
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="md:group-hover:animate-hover-top-left w-6 h-6 ml-2 inline-block"> 
                 <path fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z" clip-rule="evenodd" />
               </svg>
 
