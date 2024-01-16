@@ -212,7 +212,7 @@ export const sites = [
     header: "AppsCollective.com",
     log: "UserName: Guest - Password: guest",
     link: "https://opstempoappscollective.herokuapp.com/#/",
-    description: "Apps Collective is an IT Organizational application run through the company OPS Tempo that helps large organizations manage and plan for their software updates and outages. It is currently in open beta testing and is set to have a full release in Spring of 2024.",
+    description: "Apps Collective is an IT Organizational application run through the company OPS Tempo that helps hospitals and universities manage and plan for their software updates and outages. It is currently in open beta testing and is set to have a full release in Spring of 2024.",
     languages: [
       "Vue", "Prisma", "BulmaCSS", "Github", "Javascript", "Fastify", "NodeJS"
     ]
