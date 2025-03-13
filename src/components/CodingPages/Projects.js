@@ -1,43 +1,63 @@
-import React from 'react'
-import { Element } from 'react-scroll'
-import { sites } from '../../data'
+import React from "react";
+import { Element } from "react-scroll";
+import { sites } from "../../data";
 
 const Projects = () => {
   const rerenderedProjects = sites.map((item, index) => {
-
-
     const rerenderedLang = item.languages.map((lang, index) => {
-      return(
+      return (
         <React.Fragment key={index}>
-          <span className='text-green-300 p-1 px-2 mr-1 rounded bg-slate-900 text-lg'>{lang}</span>
+          <li className="text-green-300 p-1 px-2 mr-1 rounded bg-slate-900 text-lg">
+            {lang}
+          </li>
         </React.Fragment>
-      )
-    })
-    
-    return(
+      );
+    });
+
+    return (
       <React.Fragment key={index}>
-        
         {/*         Project            */}
-        <div className='group text-gray-300 px-3 my-12 grid grid-cols-4 '>
-          
+        <div className="group text-gray-300 px-3 my-12 grid grid-cols-4 justify-center">
           {/*         Project Picture           */}
-          <a style={{animationDelay:'400ms'}} href={item.link} target='_blank' rel='noreferrer' className='object-cover md:group-hover:animate-hflip mt-2
-          '>
-            <div className='md:group-hover:animate-fasthflip'>
-              <img src={item.thumbnail} alt="Site Preview" className='border-solid border-8 rounded-lg border-green-400 group-hover:border-blue-400'/>
+          <a
+            style={{ animationDelay: "400ms" }}
+            href={item.link}
+            target="_blank"
+            rel="noreferrer"
+            className="object-cover md:group-hover:animate-hflip mt-2
+          "
+          >
+            <div className="md:group-hover:animate-fasthflip">
+              <img
+                src={item.thumbnail}
+                alt="Site Preview"
+                className="border-solid border-8 rounded-lg border-green-400 group-hover:border-blue-400"
+              />
             </div>
           </a>
 
           {/*         Project Data          */}
-          <div className='col-span-3 ml-4 '>
-
+          <div className="col-span-3 ml-4 flex gap-1 flex-col justify-center ">
             {/*         Project Header            */}
-            <a href={item.link} target='_blank' rel='noreferrer' className='text-2xl pb-2 text-green-300  cursor-pointer group-hover:text-blue-400'>
-              {item.header} 
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="md:group-hover:animate-hover-top-left w-6 h-6 ml-2 inline-block"> 
-                <path fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z" clip-rule="evenodd" />
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              className="text-2xl text-green-300  cursor-pointer group-hover:text-blue-400"
+            >
+              {item.header}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="md:group-hover:animate-hover-top-left w-6 h-6 ml-2 mb-2 inline-block"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"
+                  clip-rule="evenodd"
+                />
               </svg>
-
             </a>
 
             <ul class="group-hover:text-yellow-400 text-green-300">
@@ -45,41 +65,43 @@ const Projects = () => {
             </ul>
 
             {/*         Project Descriptions            */}
-            <ul>
-              {item.description}
-            </ul>
+            <ul>{item.description}</ul>
 
             {/*         Project Languages            */}
-            <div className='mt-4 pb-2 text-sm'>
-              <div className='m-2'>{rerenderedLang}</div>
+            <div className="mt-4 pb-2 text-sm">
+              <ul className="flex gap-2">{rerenderedLang}</ul>
             </div>
           </div>
-
-         
         </div>
       </React.Fragment>
     );
   });
 
-
   return (
     <Element name="Projects" class="text-slate-900 text-lg lg:mx-16 xl:mx-32">
-       {/*         Title            */}
-      <div className='ml-4 md:ml-12 my-12 text-4xl text-green-400'>
+      {/*         Title            */}
+      <h2 className="ml-4 md:ml-12 my-12 text-4xl text-green-400">
         Recent Projects
-      </div>
+      </h2>
+      {/* <div className="">
+        <iframe
+          title="Apps Collective"
+          origin
+          allow-popups
+          allow-forms
+          allow-modals
+          allow-scripts
+          allow-top-navigation-by-user-activation
+          src="https://appscollectivedev.herokuapp.com/#/"
+          width="800"
+          height="500"
+        ></iframe>
+      </div> */}
 
-     {/*         Body             */}
-     <div className='md:mx-8'>
-        
-        {rerenderedProjects}
-
-      </div>
-
+      {/*         Body             */}
+      <div className="md:mx-8">{rerenderedProjects}</div>
     </Element>
-
   );
 };
 
 export default Projects;
-
